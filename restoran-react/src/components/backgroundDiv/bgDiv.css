@@ -1,0 +1,18 @@
+.parent-div {
+  position: absolute;
+  height: 860px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(1, 1, 10, 0.865),
+      rgba(1, 1, 10, 0.807)
+    ),
+    url("../../assets/bg.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

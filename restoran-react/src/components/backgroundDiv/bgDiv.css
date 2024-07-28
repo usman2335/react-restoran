@@ -1,5 +1,5 @@
 .parent-div {
-  position: absolute;
+  position: relative;
   height: 860px;
   width: 100%;
   background-image: linear-gradient(
@@ -12,7 +12,42 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
+}
+.content-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15%;
+}
+div {
+  color: white;
+}
+.leftdiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rightdiv {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.heroimg {
+  animation: rotate 14s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }

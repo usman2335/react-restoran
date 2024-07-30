@@ -1,0 +1,66 @@
+.menuitems {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(50% - 16px);
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+  transition: transform 0.3s ease;
+
+}
+.menuitems:hover {
+    transform: scale(1.05); 
+  }
+.menuitemfont h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+
+}
+
+.itemcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+    flex-wrap: nowrap;
+
+}
+
+.itemcontainer img {
+    min-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.itemcontainer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666565;
+    border-style: initial;
+    border: solid 1 px black;
+}
+.itemcontainer hr {
+    border-top: 1px;
+    width: 114%;
+    height: 1px;
+    position: relative;
+    /* left: 2%; */
+    margin: 5px 0px;
+}
+
+.itemname {
+    width: 70%;
+
+}
+
+.itemname p {
+    color: #666565 ;
+    white-space: normal;
+}

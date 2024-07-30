@@ -1,0 +1,37 @@
+.orange-filter {
+    filter: invert(62%) sepia(71%) saturate(590%) hue-rotate(347deg) brightness(170%) contrast(100%);
+}
+.white-filter {
+    filter: invert(100%) sepia(2%) saturate(7488%) hue-rotate(17deg) brightness(100%) contrast(118%);
+}
+
+.card {
+    /* width: 263px;
+    height: 256px; */
+    transition: 5s ease-in-out;
+}
+  
+  .card:hover {
+    background-color: #FEA116;
+    transform: scale(1.1); 
+    color: white; 
+  }
+
+  .card:hover .card-text {
+    color: #FFFFFF;
+  }
+  
+  .card-content {
+    color: #0F172B; 
+  }
+
+  .card-orange:hover .card-media {
+    filter: invert(0%) sepia(2%) saturate(0%) hue-rotate(17deg) brightness(100%) contrast(118%); 
+  }
+  
+  .card-white:hover .card-media {
+    filter:   brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+
+  }
+  

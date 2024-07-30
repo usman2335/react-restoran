@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: poppins !important;
+  font-family: poppins;
 }
 .container {
   /* position: fixed;
@@ -9,9 +9,23 @@
   width: 100%; */
 }
 .card-div {
-  height: "450px";
+  height: 450px;
   background-color: "orange";
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 15%;
 }
+
+.grid-div{
+  background-color: aliceblue;
+  height: 600px;
+}
+
+.menu-div{
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10%;
+  }

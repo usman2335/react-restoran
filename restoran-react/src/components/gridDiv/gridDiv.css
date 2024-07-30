@@ -1,0 +1,97 @@
+.grid-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    align-items: center;
+  
+  }
+  .grid-left
+  {
+    color: black;
+  }
+  
+  .grid-right{
+    color: black;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  .upperimgs {
+    width: 50%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    position: relative;
+    /* right: 10.5%; */
+    gap: 5%;
+
+}
+.lowerimgs {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    position: relative;
+    left: 7.5%;
+}
+.boximgs {
+    width: 100%;
+    height: 100%;
+}
+
+.smallimgs {
+    width: 203px;
+    height: 203px;
+}
+.pacificoheading {
+    color: #FEA116;
+    font-family: pacifico;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 24px;
+
+}
+
+.hline {
+    display: inline-block;
+    border-style: initial;
+    border-bottom: solid 2px #FEA116;
+    width: 60px;
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+    border-radius: 2px;
+}
+.grid-right h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 48px;
+    color: #0F172B;
+    position: relative;
+    bottom: 5%;
+
+}
+
+.grid-right p {
+    font-size: 1em;
+    font-weight: 400;
+    color: #666565;
+    position: relative;
+    bottom: 3%;
+}
+
+.thirteenfifty {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.thirteenfifty h1 {
+    border-left: solid 5px orange;
+    padding-left: 10px;
+}
+
